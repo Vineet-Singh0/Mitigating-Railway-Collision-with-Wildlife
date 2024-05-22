@@ -84,6 +84,21 @@ The software code is uploaded to the Arduino microcontroller, and the system is 
 5. **Performance Evaluation**: Test the system on a test track and analyze results.
 6. **Optimization and Enhancement**: Improve system efficiency and performance.
 
+## Block Diagram
+
+-![Block Diagram](Media/block-diagram.png)
+
+
+## Photos
+
+![Photo](Media/Railway.jpg)
+
+
+## Videos
+
+[Watch the system in action](Media/Railway.mp4)
+
+
 ## Safety Considerations
 
 - **Compliance with safety standards**.
@@ -91,16 +106,6 @@ The software code is uploaded to the Arduino microcontroller, and the system is 
 - **Mitigation strategies** to address identified hazards.
 - **Regular maintenance** to ensure system reliability.
 
-## Media
-
-### Photos
-
-![Photo 1](Media/Railway.jpg)
-
-
-### Videos
-
-[Watch the system in action](Media/Railway.mp4)
 
 ## Conclusion
 
