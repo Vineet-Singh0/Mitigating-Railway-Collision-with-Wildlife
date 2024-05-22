@@ -95,12 +95,12 @@ The software code is uploaded to the Arduino microcontroller, and the system is 
 
 ### Photos
 
-![Photo 1](path/to/your/photo1.jpg)
-![Photo 2](path/to/your/photo2.jpg)
+![Photo 1](Media/Railway.jpg)
+
 
 ### Videos
 
-[Watch the system in action](https://www.youtube.com/watch?v=your_video_link)
+[Watch the system in action](Media/Railway.mp4)
 
 ## Conclusion
 
