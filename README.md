@@ -1,4 +1,4 @@
-# Mitigating Railway Collision with Wildlife
+# 🌟 Mitigating Railway Collision with Wildlife 🌟
 
 ## Project Overview
 
