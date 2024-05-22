@@ -1,0 +1,42 @@
+// Pin Definitions
+const int irSensorPin = 2;   // IR sensor pin
+const int buzzerPin = 3;     // Buzzer pin
+const int ledPin = 4;        // LED pin
+
+// Variables
+int animalDetected = 0;      // Flag to indicate animal detection
+
+void setup() {
+  // Initialize Serial communication
+  Serial.begin(9600);
+
+  // Initialize pin modes
+  pinMode(irSensorPin, INPUT);
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Read IR sensor value
+  int sensorValue = digitalRead(irSensorPin);
+
+  if (sensorValue == HIGH) {
+    // Animal detected
+    if (animalDetected == 0) {
+      animalDetected = 1;
+      // Activate buzzer and LED
+      digitalWrite(buzzerPin, HIGH);
+      digitalWrite(ledPin, HIGH);
+      Serial.println("Animal Detected!");
+    }
+  } else {
+    // No animal detected
+    if (animalDetected == 1) {
+      animalDetected = 0;
+      // Deactivate buzzer and LED
+      digitalWrite(buzzerPin, LOW);
+      digitalWrite(ledPin, LOW);
+      Serial.println("No Animal Detected");
+    }
+  }
+}
